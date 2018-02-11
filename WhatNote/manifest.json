@@ -1,7 +1,7 @@
 {
 	"manifest_version":2,
 	"name": "My WhatNote",
-	"description":"Prenez des notes simplements et rapidement",
+	"description":"Take notes easily",
 	"version":"1.0",
 	"browser_action":{
 		"default_icon":"icon.png",
