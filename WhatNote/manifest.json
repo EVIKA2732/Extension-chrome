@@ -1,0 +1,10 @@
+{
+	"manifest_version":2,
+	"name": "My WhatNote",
+	"description":"Prenez des notes simplements et rapidement",
+	"version":"1.0",
+	"browser_action":{
+		"default_icon":"icon.png",
+		"default_popup":"popup.html"
+	}
+}
