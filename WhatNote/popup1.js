@@ -1,11 +1,8 @@
 function onLoad() {
 	var txt = document.getElementById("txt");
-	txt.value = localStorage.GetItem("txt");
-
-	var button = document.getElementById("btn");
-	button.addEventListener("click", savedata);
+	txt.value = localStorage.txt;
 }
 
 function saveData() {
-	localStorage.setItem("txt", txt.value);
+	localStorage.txt = txt.value;
 }
